@@ -98,7 +98,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/desktop-banner/3.webp",
 				"/assets/desktop-banner/4.webp",
 				"/assets/desktop-banner/5.webp",
-				"/assets/desktop-banner/6.webp",
 			], // 桌面横幅图片
 			mobile: [
 				"/assets/mobile-banner/1.webp",
@@ -106,7 +105,6 @@ export const siteConfig: SiteConfig = {
 				"/assets/mobile-banner/3.webp",
 				"/assets/mobile-banner/4.webp",
 				"/assets/mobile-banner/5.webp",
-				"/assets/mobile-banner/6.webp",
 			], // 移动横幅图片
 		}, // 使用本地横幅图片
 
@@ -135,14 +133,9 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title:"Welcome to my Blog", // 主页横幅主标题
+			title: "Welcome to my Blog", // 主页横幅主标题
 
-			subtitle: [
-				"致力于打造有用的内容",
-				"分享贴近生活的技术与项目教程",
-				"失联式更新番评与日常",
-				"记录自娱自乐的折腾经历",
-			],
+			subtitle: ["对美的感知构筑起我们的世界。"],
 			typewriter: {
 				enable: true, // 启用副标题打字机效果
 
@@ -208,7 +201,6 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/desktop-banner/3.webp",
 			"/assets/desktop-banner/4.webp",
 			"/assets/desktop-banner/5.webp",
-			"/assets/desktop-banner/6.webp",
 		], // 桌面横幅图片
 		mobile: [
 			"/assets/mobile-banner/1.webp",
@@ -216,7 +208,6 @@ export const fullscreenWallpaperConfig: FullscreenWallpaperConfig = {
 			"/assets/mobile-banner/3.webp",
 			"/assets/mobile-banner/4.webp",
 			"/assets/mobile-banner/5.webp",
-			"/assets/mobile-banner/6.webp",
 		], // 移动横幅图片
 	}, // 使用本地横幅图片
 	position: "center", // 壁纸位置，等同于 object-position
@@ -312,7 +303,7 @@ export const profileConfig: ProfileConfig = {
 	name: "Bluebirds",
 	bio: "Why so serious?",
 	typewriter: {
-		enable: true, // 启用个人简介打字机效果
+		enable: false, // 启用个人简介打字机效果
 		speed: 80, // 打字速度（毫秒）
 	},
 	links: [
