@@ -133,7 +133,7 @@ export const siteConfig: SiteConfig = {
 
 		homeText: {
 			enable: true, // 在主页显示自定义文本
-			title: "Welcome to my Blog", // 主页横幅主标题
+			title: "Welcome to my blog", // 主页横幅主标题
 
 			subtitle: ["对美的感知构筑起我们的世界。"],
 			typewriter: {
