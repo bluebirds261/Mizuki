@@ -7,7 +7,7 @@ tags: [电话卡,Markdown习作]
 category: 教程
 licenseName: "Unlicensed"
 author: bluebirds
-draft: true
+draft: false
 ---
 
 # Giffgaff 实体卡攻略：数字游民的优选
