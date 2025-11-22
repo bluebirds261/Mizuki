@@ -18,21 +18,29 @@ export type DeviceCategory = {
 export const devicesData: DeviceCategory = {
 	OnePlus: [
 		{
-			name: "OnePlus 13T",
-			image: "/images/device/oneplus13t.png",
-			specs: "Gray / 16G + 1TB",
-			description: "Flagship performance, Hasselblad imaging, 80W SuperVOOC.",
-			link: "https://www.oneplus.com/cn/13t",
+			name: "OnePlus Ace2",
+			image: "/images/device/oneplus ace2-blue.png",
+			specs: "冰河蓝 / 12G + 256G",
+			description: "第一代骁龙8+, 1.5K HDR10+屏幕, 100W SuperVOOC闪充",
+			link: "https://www.oneplus.com/cn/ace-2",
 		},
 	],
-	Router: [
+	SAMSUNG: [
 		{
-			name: "GL-MT3000",
-			image: "/images/device/mt3000.png",
-			specs: "1000Mbps / 2.5G",
-			description:
-				"Portable WiFi 6 router suitable for business trips and home use.",
-			link: "https://www.gl-inet.cn/products/gl-mt3000/",
+			name: "Galaxy Tab S10+",
+			image: "/images/device/Samsung Galaxy Tab S10+.png",
+			specs: "钛影灰 / 12G + 256G + 256G MicroSD",
+			description: "轻薄便携的高性能平板, 适合娱乐和生产力任务",
+			link: "https://www.samsung.com.cn/tablets/galaxy-tab-s/galaxy-tab-s10-plus-gray-256gb-sm-x820nzaachn/",
+		},
+	],
+	PC: [
+		{
+			name: "DIY台式机",
+			image: "/images/device/DIY.png",
+			specs: " 13600KF / 4070TiSuper / 32G RAM / 2T SSD",
+			description: "高性能自组装台式机, 胜任游戏和多任务处理",
+			link: "n/a",
 		},
 	],
 };
