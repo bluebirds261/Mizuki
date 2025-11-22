@@ -322,11 +322,6 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:x-twitter",
 			url: "https://x.com/bluebirds_4x?t=iB8hFY8Cizodf0-c279UDA&s=05",
 		},
-		{
-			name: "Pixiv",
-			icon: "fa6-brands:pixiv",
-			url: "https://www.pixiv.net/users/50299963",
-		},
 	],
 };
 
