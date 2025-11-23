@@ -43,4 +43,13 @@ export const devicesData: DeviceCategory = {
 			link: "n/a",
 		},
 	],
+	NAS: [
+		{
+			name: "DIY NAS",
+			image: "/images/device/fnos.png",
+			specs: " i3-8100 / 8G RAM / 4T+16T HDD ",
+			description: "自组HomeServer/NAS, 部署家用存储和多媒体服务, 安全IPV6公网访问",
+			link: "n/a",
+		},
+	],
 };
